@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advice Generator App</title>
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+<body>
+  <div class="card">
+    <p class="advice-id">
+      Advice #<span id="advice-id">--</span>
+    </p>
+    <blockquote class="advice-text" id="advice-text">
+      "Loading..."
+    </blockquote>
+
+
+    <img class="divider" src="./images/pattern-divider-desktop.svg" alt="Divider" />
+
+
+    <button class="dice-button" id="dice-button" aria-label="Get new advice">
+  
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+        <path fill="var(--dark-grayish-blue)" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/>
+        <path fill="var(--dark-grayish-blue)" d="M7 7h2v2H7zM15 7h2v2h-2zM7 15h2v2H7zM15 15h2v2h-2zM11 11h2v2h-2z"/>
+      </svg>
+    </button>
+  </div>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Alison</a>.
+  </footer>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
